@@ -32,6 +32,10 @@
 namespace android {
 // ----------------------------------------------------------------------------
 
+/*
+ISurfaceComposerClient的主要功能是管理Surface,具体操作包含
+创建Surface及销毁Surface
+*/
 class ISurfaceComposerClient : public IInterface
 {
 public:
@@ -54,7 +58,7 @@ public:
         eFXSurfaceMask      = 0x000F0000,
     };
 
-	//结构体中也可以包含方法
+	//结构体中也可以包含方法（该结构主要功能是从Parcel中读写数据）
     struct surface_data_t {
         int32_t token;
         int32_t identity;

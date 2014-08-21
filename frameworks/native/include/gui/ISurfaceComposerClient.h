@@ -32,6 +32,10 @@
 namespace android {
 // ----------------------------------------------------------------------------
 
+/*
+ISurfaceComposerClient的主要功能是管理Surface,具体操作包含
+创建Surface及销毁Surface
+*/
 class ISurfaceComposerClient : public IInterface
 {
 public:

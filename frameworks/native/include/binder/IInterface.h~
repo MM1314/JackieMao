@@ -137,6 +137,9 @@ inline BpInterface<INTERFACE>::BpInterface(const sp<IBinder>& remote)
 {
 }
 
+/*
+onAsBinder 返回remote()函数的IBinder指针，应该是Bn端的代理
+*/
 template<typename INTERFACE>
 inline IBinder* BpInterface<INTERFACE>::onAsBinder()
 {

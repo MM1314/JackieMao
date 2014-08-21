@@ -63,7 +63,7 @@ private:
         uint32_t code, const Parcel& data, Parcel* reply, uint32_t flags);
 
     // constant
-   //主要的属性就是SurfaceFlinger
+    //主要的属性就是SurfaceFlinger
     sp<SurfaceFlinger> mFlinger;
 
     // protected by mLock

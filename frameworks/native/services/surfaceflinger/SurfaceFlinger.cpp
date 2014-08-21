@@ -159,7 +159,7 @@ void SurfaceFlinger::binderDied(const wp<IBinder>& who)
 
 /*
 开始建立连接～～
-
+生成一个包含该SurfaceFlinger的Client对象并返回～～
 */
 sp<ISurfaceComposerClient> SurfaceFlinger::createConnection()
 {

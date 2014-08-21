@@ -1,0 +1,21 @@
+在ubuntu中，一款相对比较方便的源代码阅读编辑工具Source-Navigator 。
+
+
+1，下载
+
+http://sourcenav.sourceforge.net/download.html
+
+下载sourcenavigator-NG4.4.tar.bz2
+
+
+解压后输入命令：
+
+sudo ./configure
+sudo make install
+
+
+安装完成后直接输入命令：
+
+snavigator
+
+即可运行！

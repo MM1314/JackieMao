@@ -1,0 +1,7 @@
+在某个文件夹下查看哪些文件中包含相应的字段： 
+grep -n -R "BpnSurfaceComposerClient" *  
+上面的方法相对较慢，可用下面的方法：
+find . -type f | xargs grep BpSurfaceComposerClient
+
+其中BpSurfaceComposerClient为需要查找的字段～～
+
